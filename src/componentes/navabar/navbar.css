@@ -1,0 +1,37 @@
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  height: 100px;
+}
+
+.medio {
+  position: relative;
+  padding: 0 40px;
+}
+
+.medio::after {
+  content: "/>";
+  position: absolute;
+  color: rgb(73, 161, 212);
+}
+
+.medio::before {
+  content: "<";
+  position: absolute;
+  color: rgb(73, 161, 212);
+  left: 30px;
+}
+
+.listaHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.listaHeader li {
+  margin: 0 10px;
+}
