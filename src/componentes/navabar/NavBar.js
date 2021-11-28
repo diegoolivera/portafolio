@@ -10,8 +10,8 @@ const NavBar = () => {
 
             <nav>
                 <ul className="listaHeader">
-                    <li>Inicio</li>
-                    <li>Proyectos</li>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
                     <li>Contacto</li>
                 </ul>
             </nav>
