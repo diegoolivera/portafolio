@@ -1,13 +1,13 @@
 import './App.css';
 
 //router
-import {Route , HashRouter as Router,Routes} from 'react-router-dom'
+import { HashRouter as Router} from 'react-router-dom'
 //componentes
 import NavBar from './componentes/navabar/NavBar';
 import Home from './componentes/home/Home';
 import Footer from './componentes/footer/Footer';
 import Proyectos from './componentes/proyectos/Proyectos';
-
+import Habilidades from './componentes/habilidades/Habilidades';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Router>
         <NavBar />
         <Home /> 
+        <Habilidades/>
         <Proyectos /> 
         <Footer /> 
       </Router>

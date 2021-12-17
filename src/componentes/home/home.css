@@ -1,0 +1,28 @@
+.contenedorComponente {
+  height: 100vh;
+}
+
+.logo {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 120px auto;
+}
+
+.descripcion h1 {
+  font-size: 50px;
+}
+
+h1 {
+  -webkit-text-stroke: 2px rgb(80, 198, 245);
+  color: black;
+}
+
+.descripcion p {
+  font-size: 25px;
+}

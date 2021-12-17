@@ -1,9 +1,10 @@
 import React from 'react'
-import logo from "../../logo.svg"
+import logo from "../../imagen/yo.jpg"
+import "../home/home.css"
 
 const Home = () => {
     return (
-        <>
+        <div className='contenedorComponente'>
             <a name='home'></a>
         
             <main className="contenedor">
@@ -12,11 +13,11 @@ const Home = () => {
                     <p>Desarrollador web Front-End</p>
                 </div>
 
-                <div className="foto">
-                    <img src={logo}alt="fotoDiego" />
+                <div className="contenedorLogo">
+                    <img className='logo' src={logo}alt="fotoDiego" />
                 </div>
             </main>
-        </>
+        </div>
     )
 }
 
