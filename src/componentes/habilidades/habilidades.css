@@ -1,0 +1,17 @@
+.titulo {
+  border: 2px solid rgb(31, 126, 182);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.habilidad {
+  font-size: 60px;
+  color: rgb(103, 170, 233);
+  cursor: pointer;
+  margin: 10px;
+}
+
+.habilidad:hover {
+  color: black;
+  transition-duration: 2s;
+}

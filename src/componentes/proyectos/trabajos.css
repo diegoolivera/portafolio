@@ -1,0 +1,30 @@
+.card {
+  width: 300px;
+  height: 450px;
+  border-radius: 7px;
+  border-left: 1px solid rgb(46, 125, 199);
+  background-color: black;
+  color: white;
+}
+
+.headerCard {
+  padding: 30px;
+}
+.headerCard p {
+  font-size: 20px;
+}
+
+.tituloTecnologias {
+  font-size: 20px;
+}
+
+.contenedorTecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedorTecnologias p {
+  margin: 5px;
+}
