@@ -1,0 +1,37 @@
+#contacto{
+    height: 40vh;
+    background-color: black;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoContacto{
+    font-size: 80px;
+    color: aliceblue;
+    margin: 40px 50px 20px 50px;
+}
+
+.footerContacto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerContacto a{
+     text-decoration: none;
+     color: azure;
+     margin-left: -35px;
+     
+}
+
+.logoSelector{
+    color: aliceblue;
+}

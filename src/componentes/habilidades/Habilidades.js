@@ -11,8 +11,8 @@ import { FaGit} from 'react-icons/fa'
 
 const Habilidades = () => {
     return (
-        <div>
-            <h2 className='titulo'>Habilidades</h2>
+        <div id='habilidades'>
+            <h2 className='tituloHabilidades'>Habilidades</h2>
             <ul>
                 <AiFillHtml5 className='habilidad' title='HTML'/>
                 <DiCss3 className='habilidad' title='CSS'/>
@@ -22,8 +22,6 @@ const Habilidades = () => {
                 <SiFirebase className='habilidad' title='FIREBASE'/>
                 <AiOutlineGithub className='habilidad' title='GITHUB'/>
                 <FaGit className='habilidad' title='GIT'/>
-                <DiScrum className='habilidad' title='SCRUM'/>
-
             </ul>
         </div>
     )

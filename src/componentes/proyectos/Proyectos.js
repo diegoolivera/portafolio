@@ -6,13 +6,12 @@ import "../proyectos/proyectos.css"
 import Trabajos from './Trabajos'
 const Proyectos = () => {
     return (
-        <>
-            <a name='proyectos'></a>
+        <div id='Portafolio'>
             <div>
                 <p className='titulo'>Mis proyectos</p>
             </div>
             <Trabajos/>
-        </>
+        </div>
     )
 }
 

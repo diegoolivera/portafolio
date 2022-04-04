@@ -1,5 +1,9 @@
 .contenedorComponente {
   height: 100vh;
+  background-image: url("../../imagen/fondo2.jpg");
+  /* background-repeat:repeat; */
+  background-attachment: fixed;
+  
 }
 
 .logo {
@@ -10,8 +14,8 @@
 .contenedor {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin: 120px auto;
+  justify-content:space-evenly;
+  padding: 250px 50px;
 }
 
 .descripcion h1 {
@@ -25,4 +29,5 @@ h1 {
 
 .descripcion p {
   font-size: 25px;
+  color: white;
 }

@@ -5,7 +5,6 @@ import "../home/home.css"
 const Home = () => {
     return (
         <div className='contenedorComponente'>
-            <a name='home'></a>
         
             <main className="contenedor">
                 <div className="descripcion">
