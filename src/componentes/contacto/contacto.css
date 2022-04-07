@@ -16,22 +16,14 @@
 }
 
 .logoContacto{
-    font-size: 80px;
+    font-size: 70px;
     color: aliceblue;
     margin: 40px 50px 20px 50px;
 }
 
-.footerContacto{
-    display: flex;
-    justify-content: space-evenly;
-}
-.footerContacto a{
-     text-decoration: none;
-     color: azure;
-     margin-left: -35px;
-     
+.logoContacto:hover{
+    color: rgb(80, 198, 245);
+    transition: 1s;
+    cursor: pointer;
 }
 
-.logoSelector{
-    color: aliceblue;
-}

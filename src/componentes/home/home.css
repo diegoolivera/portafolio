@@ -1,8 +1,9 @@
 .contenedorComponente {
   height: 100vh;
-  background-image: url("../../imagen/fondo2.jpg");
+  background-image: url("../../imagen/fondo10.jpg");
   /* background-repeat:repeat; */
   background-attachment: fixed;
+  background-size: contain;
   
 }
 
@@ -15,19 +16,19 @@
   display: flex;
   align-items: center;
   justify-content:space-evenly;
-  padding: 250px 50px;
+  padding: 200px 50px;
 }
 
 .descripcion h1 {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 h1 {
   -webkit-text-stroke: 2px rgb(80, 198, 245);
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .descripcion p {
-  font-size: 25px;
+  font-size: 35px;
   color: white;
 }

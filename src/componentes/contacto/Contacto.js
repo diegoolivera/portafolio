@@ -16,40 +16,9 @@ const Contacto = () => {
             <p className='titulo'>Contacto</p>
 
             <div className='flex'>
-                <div className='contenedorLogo'>
-                    <div className='contenedorContacto'>
-                        <FaGithub className='logoContacto' />
-                        <div className="footerContacto">
-                            <AiOutlinePushpin className='logoSelector'/>
-                            <a href='/'>Ver Github</a>  
-                        </div>  
-                    </div>
-
-                    <div className='contenedorContacto'>
-                        <FaLinkedin className='logoContacto' />
-                        <div className="footerContacto">
-                            <AiOutlinePushpin className='logoSelector'/>
-                            <a href='/'>Ver Linkedin</a>  
-                        </div>  
-                    </div>
-                
-                    <div className='contenedorContacto'>
-                        <AiOutlineMail className='logoContacto' />
-                        <div className="footerContacto">
-                            <AiOutlinePushpin className='logoSelector'/>
-                            <a href='/'> Ver Email</a>  
-                        </div>  
-                    </div>
-
-                    <div className='contenedorContacto'>
-                        <BsPersonSquare className='logoContacto' />
-                        <div className="footerContacto">
-                            <AiOutlinePushpin className='logoSelector'/>
-                            <a href='/'>Ver CV</a>  
-                        </div>  
-                    </div>
-                
-                </div>
+                <a href='/'><FaGithub className='logoContacto' /></a>
+                <a href='/'><FaLinkedin className='logoContacto' /></a>
+                <a href='/'><BsPersonSquare className='logoContacto' /></a>   
             </div>
         </div>
     )
