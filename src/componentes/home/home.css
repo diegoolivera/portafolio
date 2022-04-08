@@ -3,7 +3,10 @@
   background-image: url("../../imagen/fondo10.jpg");
   /* background-repeat:repeat; */
   background-attachment: fixed;
-  background-size: contain;
+  /* background-size: contain; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   
 }
 

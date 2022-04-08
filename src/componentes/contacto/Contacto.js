@@ -2,9 +2,8 @@ import React from 'react'
 
 //iconos
 import { FaGithub,FaLinkedin } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
 import { BsPersonSquare } from "react-icons/bs";
-import { AiOutlinePushpin } from "react-icons/ai";
+
 
 
 //css
