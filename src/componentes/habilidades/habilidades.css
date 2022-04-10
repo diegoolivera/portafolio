@@ -8,12 +8,12 @@
 
 .habilidad {
   font-size: 70px;
-  color: rgb(80, 198, 245);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   margin: 10px;
 }
 
 .habilidad:hover {
-  color: rgb(255, 253, 253);
+  color: rgb(80, 198, 245);;
   transition-duration: 2s;
 }

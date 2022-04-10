@@ -1,12 +1,16 @@
 #contacto{
-    height: 40vh;
-    background-color: black;
+    height: 650px;
+    background-color: rgb(8, 8, 8);
+    padding-top: 100px;
+    
 }
 
 .flex{
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .contenedorLogo{
@@ -16,8 +20,8 @@
 }
 
 .logoContacto{
-    font-size: 70px;
-    color: aliceblue;
+    font-size: 50px;
+    color: rgb(254, 254, 254);
     margin: 40px 50px 20px 50px;
 }
 
@@ -27,3 +31,24 @@
     cursor: pointer;
 }
 
+.contenedorContacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContacto{
+    color: white;
+    font-size: 20px;
+    margin-left: 2px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.email{
+    margin-left: 155px;
+}
+
+.cv{
+    margin-left: 58px;
+}

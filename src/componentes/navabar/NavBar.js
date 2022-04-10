@@ -3,10 +3,10 @@ import React,{useState} from 'react'
 import "../navabar/navbar.css"
 const NavBar = () => {
     const [showBar,setShowBar] = useState(false) 
-    console.log(showBar)
+    
     const barChange = ()=>{
         (window.scrollY >= 90)? setShowBar(true): setShowBar(false)
-        console.log("movido",showBar)
+        console.log(showBar)
     }
 
     window.addEventListener("scroll",barChange)
