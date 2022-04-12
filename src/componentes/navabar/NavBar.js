@@ -1,6 +1,9 @@
 import React,{useState} from 'react'
 //css
 import "../navabar/navbar.css"
+//componentes
+import NavBarMobile from './NavBarMobile'
+
 const NavBar = () => {
     const [showBar,setShowBar] = useState(false) 
     
@@ -15,7 +18,7 @@ const NavBar = () => {
             <div>
                 <p className='medio'>Diego Olivera</p>
             </div>
-
+            <NavBarMobile/>
             <nav>
                 <ul className="listaHeader">
                     <li><a href="/">Inicio</a></li>
