@@ -9,6 +9,7 @@
   background: url("../../imagen/fondocard7.jpg");
   margin-bottom: 40px;
   
+  
 }
 
 .headerCard {
@@ -79,4 +80,13 @@
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 60px;
   place-items: center;
+}
+
+
+@media only screen and (max-width: 600px){
+
+  .grid{
+    grid-template-columns:1fr ;
+  }
+
 }

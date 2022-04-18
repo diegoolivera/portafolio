@@ -3,7 +3,7 @@ import React from 'react'
 //iconos
 import { FaGithub,FaLinkedin } from "react-icons/fa";
 import { BsPersonSquare,BsArrowRightCircle } from "react-icons/bs";
-import { IoLogoGoogle} from "react-icons/io";
+
 //cv
 import cv from "../../cv/CV_DiegoOlivera.pdf"
 
@@ -15,27 +15,20 @@ const Contacto = () => {
         <div id='contacto'>
             <p className='titulo'>Contacto</p>
 
-            <div className='flex'>
-                <div className='contenedorContacto'>
+            <div className='flex' data-aos="flip-left" > 
+                <div className='contenedorContacto'  >
                     <FaGithub className='logoContacto ' />
                     <a href='https://github.com/diegoolivera' className='textContacto'> <BsArrowRightCircle/> ver Github</a>
                 </div>
                 <div className='contenedorContacto'>
-                    <FaLinkedin className='logoContacto' />
+                    <FaLinkedin className='logoContacto linkedin' />
                     <a href='https://www.linkedin.com/in/diego-olivera97/' className='textContacto'> <BsArrowRightCircle/> ver Linkedin</a>
                 </div>
-                <div className='contenedorContacto'>
-                    <IoLogoGoogle className='logoContacto email'/>
-                    <p className='textContacto '> diegooliverautn@gmail.com</p>
-                </div>
+    
                 <div className='contenedorContacto'>
                     <BsPersonSquare className='logoContacto cv' />  
                     <a  className='textContacto' href={cv} download="CV_DiegoOlivera.pdf"> <BsArrowRightCircle/> Descargar CV</a>
-                </div>
-                
-                
-                
-                 
+                </div>   
             </div>
         </div>
     )

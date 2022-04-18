@@ -7,9 +7,9 @@ import "../proyectos/trabajos.css"
 
 const trabajos = () => {
     return (
-        <div className='grid'>
+        <div className='grid ' data-aos="flip-left">
              
-             <article className='card'>
+             <article className='card '>
                     <header className='headerCard'>
                         <p>Catalogo De Hotel</p>
                     </header>
@@ -30,8 +30,6 @@ const trabajos = () => {
                         <a target="_blank"  href="https://serviciohotel.000webhostapp.com/">Abrir</a>
                     </div>
                 </article>
-
-    
         </div>
     )
 }

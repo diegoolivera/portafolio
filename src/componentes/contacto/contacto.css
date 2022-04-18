@@ -1,5 +1,5 @@
 #contacto{
-    height: 650px;
+    height: 500px;
     background-color: rgb(8, 8, 8);
     padding-top: 100px;
     
@@ -22,9 +22,11 @@
 .logoContacto{
     font-size: 50px;
     color: rgb(254, 254, 254);
-    margin: 40px 50px 20px 50px;
+    margin: 40px 50px 20px 20px;
 }
-
+.linkedin{
+    margin-right: 28px;
+}
 .logoContacto:hover{
     color: rgb(80, 198, 245);
     transition: 1s;
@@ -45,12 +47,24 @@
     padding-top: 10px;
 }
 
-.email{
-    margin-left: 155px;
-}
-
 .cv{
     margin-left: 58px;
 }
 
+@media only screen and (max-width: 600px){
+  .flex{
+      display: grid;
+      grid-template-columns: 1fr;
+  }
 
+  /* .emailText{
+      background-color: brown;
+      font-size: 17px;
+      margin-right: 28px;
+  }
+
+  .logoContacto{
+    margin: 40px 50px 20px 0px;
+    background-color: brown;
+  } */
+}

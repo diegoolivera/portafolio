@@ -10,7 +10,10 @@ const Proyectos = () => {
             <div>
                 <p className='titulo'>Mis proyectos</p>
             </div>
+            
             <Trabajos/>
+           
+            
         </div>
     )
 }

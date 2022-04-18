@@ -10,12 +10,12 @@
     display: none;
     background-color: #151515;
     font-size: 40px;
-    z-index: 30;
+   
 }
 
 .burgerLogo{
     display: none;
-    color: aqua;
+    color: rgb(80, 198, 245);
     font-size: 25px;
     position: relative;
 }
@@ -37,8 +37,9 @@
     }
 
     .btnCloseBurger{
-        margin: 40px;
-        background-color: rgb(69, 132, 198);
+        margin: 40px 0 20px 260px;
+        color:rgb(80, 198, 245);
         border-radius: 2px;
+        
     }
 }   

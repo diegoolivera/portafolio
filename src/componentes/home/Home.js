@@ -2,14 +2,15 @@ import React from 'react'
 import logo from "../../imagen/yo.jpg"
 import "../home/home.css"
 
+
 const Home = () => {
     return (
-        <div className='contenedorComponente'>
         
+        <div className='contenedorComponente'>
             <main className="contenedor">
                 <div className="descripcion">
                     <p>Hola!</p>
-                    <h1> Soy Diego Olivera</h1>
+                    <h1 data-aos="flip-left"> Soy Diego Olivera</h1>
                     <p>FullStack Developer</p>
                 </div>
 
