@@ -13,7 +13,7 @@ const Habilidades = () => {
     return (
         <div id='habilidades'>
             <h2 className='tituloHabilidades'>Habilidades</h2>
-            <ul data-aos="flip-left">
+            <ul data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <AiFillHtml5 className='habilidad' title='HTML'/>
                 <DiCss3 className='habilidad' title='CSS'/>
                 <DiJavascript className='habilidad' title='JS'/>

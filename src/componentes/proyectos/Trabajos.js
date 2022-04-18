@@ -7,7 +7,7 @@ import "../proyectos/trabajos.css"
 
 const trabajos = () => {
     return (
-        <div className='grid ' data-aos="flip-left">
+        <div className='grid ' data-aos="flip-left" data-aos-duration="2000">
              
              <article className='card '>
                     <header className='headerCard'>

@@ -10,12 +10,12 @@ const Home = () => {
             <main className="contenedor">
                 <div className="descripcion">
                     <p>Hola!</p>
-                    <h1 data-aos="flip-left"> Soy Diego Olivera</h1>
+                    <h1 data-aos="zoom-in-up"  data-aos-duration="2000"> Soy Diego Olivera</h1>
                     <p>FullStack Developer</p>
                 </div>
 
                 <div className="contenedorLogo">
-                    <img className='logo' src={logo}alt="fotoDiego" />
+                    <img className='logo' src={logo} alt="fotoDiego" />
                 </div>
             </main>
         </div>

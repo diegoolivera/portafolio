@@ -15,7 +15,7 @@ const Contacto = () => {
         <div id='contacto'>
             <p className='titulo'>Contacto</p>
 
-            <div className='flex' data-aos="flip-left" > 
+            <div className='flex' data-aos="flip-left" data-aos-duration="1500"> 
                 <div className='contenedorContacto'  >
                     <FaGithub className='logoContacto ' />
                     <a href='https://github.com/diegoolivera' className='textContacto'> <BsArrowRightCircle/> ver Github</a>
