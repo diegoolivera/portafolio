@@ -3,7 +3,10 @@
   border-radius: 5px;
   margin-top: 40px;
   color: aliceblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 1px rgb(80, 198, 245) solid;
+  display: inline-block;
+  font-family: "Dosis",sans-serif;
 }
 
 .habilidad {

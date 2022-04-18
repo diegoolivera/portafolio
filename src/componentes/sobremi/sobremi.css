@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat",sans-serif;
+    
 }
 
 
@@ -16,13 +16,16 @@
     border: 2px solid rgb(80, 198, 245);
     padding: 25px;
     border-radius: 5px;
-    color: aliceblue;
+    color: #fefefe;
+    font-size: 25px; 
+    font-family: "Montserrat",sans-serif;
 }
 
 .descripcionSobre{
     font-size: 30px;
     margin-top: 30px;
     color: aliceblue;
+    font-family: "Montserrat",sans-serif;
 }
 
 .descripcionSobre p{

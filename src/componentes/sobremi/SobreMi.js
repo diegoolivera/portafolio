@@ -8,7 +8,7 @@ import Habilidades from '../habilidades/Habilidades';
 const SobreMi = () => {
     return (
         <div id='aboutMe'>
-            <h2 className='titulo'>Sobre Mi</h2>
+            <p className='titulo'>Sobre Mi</p>
             <div className='descripcionSobre'>
                 <p>
                    Soy una persona apasionada por la programacion,

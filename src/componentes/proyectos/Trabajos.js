@@ -27,7 +27,7 @@ const trabajos = () => {
                     </div>
                     <div className='contenedorBotones'>
                         <a target="_blank" href="https://github.com/diegoolivera/Servicio_Hotel">Codigo</a>
-                        <a target="_blank"  href="https://serviciohotel.000webhostapp.com/">Abrir</a>
+                        <a target="_blank"  href="https://serviciohotel.000webhostapp.com/">Demo</a>
                     </div>
                 </article>
         </div>
